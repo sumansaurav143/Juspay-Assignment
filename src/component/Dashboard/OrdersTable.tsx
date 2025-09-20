@@ -3,11 +3,11 @@ import Avatar from "../UI/Avatar";
 import "../../App.css";
 
 const orders = [
-  { id: "#CM9801", avatar:'/src/assets/1.jpg', user: "Natali Craig", project: "Landing Page", address: "Meadow Lane Oakland", date: "Just now", status: "In Progress" },
-  { id: "#CM9802", avatar:'/src/assets/1.jpg', user: "Kate Morrison", project: "CRM Admin pages", address: "Larry San Francisco", date: "A minute ago", status: "Complete" },
-  { id: "#CM9803", avatar:'/src/assets/1.jpg', user: "Drew Cano", project: "Client Project", address: "Bagwell Avenue Ocala", date: "1 hour ago", status: "Pending" },
-  { id: "#CM9804", avatar:'/src/assets/1.jpg', user: "Orlando Diggs", project: "Admin Dashboard", address: "Washburn Baton Rouge", date: "Yesterday", status: "Approved" },
-  { id: "#CM9805", avatar:'/src/assets/1.jpg', user: "Andi Lane", project: "App Landing Page", address: "Nest Lane Olivette", date: "Feb 2, 2023", status: "Rejected" },
+  { id: "#CM9801", avatar:'/public/1.jpg', user: "Natali Craig", project: "Landing Page", address: "Meadow Lane Oakland", date: "Just now", status: "In Progress" },
+  { id: "#CM9802", avatar:'/public/1.jpg', user: "Kate Morrison", project: "CRM Admin pages", address: "Larry San Francisco", date: "A minute ago", status: "Complete" },
+  { id: "#CM9803", avatar:'/public/1.jpg', user: "Drew Cano", project: "Client Project", address: "Bagwell Avenue Ocala", date: "1 hour ago", status: "Pending" },
+  { id: "#CM9804", avatar:'/public/1.jpg', user: "Orlando Diggs", project: "Admin Dashboard", address: "Washburn Baton Rouge", date: "Yesterday", status: "Approved" },
+  { id: "#CM9805", avatar:'/public/1.jpg', user: "Andi Lane", project: "App Landing Page", address: "Nest Lane Olivette", date: "Feb 2, 2023", status: "Rejected" },
 ];
 
 export default function OrdersTable() {

@@ -22,7 +22,7 @@ export default function Sidebar({
     <aside className="sidebar">
       {/* Header */}
       <div className="sidebar-header">
-        <img src="/src/assets/1.jpg" alt="Profile" className="logo" />
+        <img src="/public/1.jpg" alt="Profile" className="logo" />
         <span className="brand-name">ByeWind</span>
       </div>
 
