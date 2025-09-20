@@ -10,6 +10,7 @@ import {
   ChatBubbleOutline as MessageCircleIcon,
 } from "@mui/icons-material";
 import "../../App.css";
+import { sampleImage } from "../Image/image";
 
 export default function Sidebar({
   onNavigate,
@@ -22,7 +23,7 @@ export default function Sidebar({
     <aside className="sidebar">
       {/* Header */}
       <div className="sidebar-header">
-        <img src="/public/1.jpg" alt="Profile" className="logo" />
+        <img src={sampleImage} alt="Profile" className="logo" />
         <span className="brand-name">ByeWind</span>
       </div>
 
