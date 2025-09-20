@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../App.css'; // Custom CSS file for styling
 
 const locationData = [
